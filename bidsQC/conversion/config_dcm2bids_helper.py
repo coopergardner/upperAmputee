@@ -2,7 +2,7 @@ import os
 
 ######################## CONFIGURABLE PART BELOW ########################
 
-group = "sanlab" # This is the name of the group on Talapas to which your account belongs
+group = "motorskill" # This is the name of the group on Talapas to which your account belongs
 
 # Directories
 # You don't need to use slashes in the path names, just put the parts of the path in quotes as shown below.
