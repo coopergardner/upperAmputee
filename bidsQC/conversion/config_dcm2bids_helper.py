@@ -23,4 +23,4 @@ test_subject = "0002062" # Name of a directory that contains DICOMS for one part
 run_local = False
 
 # If run_local is set to false, enter the path for the singularity image. Else, set to "NA"
-singularity_image =  os.path.join(os.sep, "projects", "sanlab", "shared", "containers", "Dcm2Bids-master.simg")
+singularity_image =  os.path.join(os.sep, "projects", "motorskill", "shared", "containers", "dcm2bids_2021-01-13.sif")
