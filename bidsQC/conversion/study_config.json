@@ -10,13 +10,25 @@
         {
             "dataType": "func",
             "modalityLabel": "bold",
-            "customLabels": "task-motor",
+            "customLabels": "task-motorMoCo",
             "criteria": {
                 "SeriesDescription": "MoCoSeries",
                 "ProtocolName": "motor_map_pace_MoCo" 
             },
             "sidecarChanges": {
-                "TaskName": "motor"
+                "TaskName": "motorMoCo"
+            }
+        },
+        {
+            "dataType": "func",
+            "modalityLabel": "bold",
+            "customLabels": "task-motorMap",
+            "criteria": {
+                "SeriesDescription": "motor_map_pace",
+                "ProtocolName": "motor_map_pace" 
+            },
+            "sidecarChanges": {
+                "TaskName": "motorMap"
             }
         }
     ]
